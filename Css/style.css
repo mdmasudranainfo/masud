@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+   
+
+}
+
+.MenuBar {
+   margin-top:-20px;
+    overflow: hidden;
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+.MenuBar ul {
+    
+    list-style: none;
+}
+
+.MenuBar ul li {
+    float: left;
+    background: #efece757;
+    margin-left: 5px;
+    
+}
+
+.MenuBar ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 15px 80px;
+    display: inline-block;
+    transition-duration:2s;
+}
+
+.MenuBar ul li a:hover{
+    color:#0f0f0e;
+    background: rgba(77, 73, 73, 0.48);
+    transform: scale(0.9);
+    
+}
+
+#carouselExampleControls{
+    width: 700px;
+    height: 600px;
+    margin: auto;
+    
+    
+   
+}
+.WelCome{
+    background: #ffffff);
+    text-align: center;
+    margin-top: -64px;
+    animation-name: Welcome;
+    animation-duration: 3s;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 50px;
+    color: orange;
+    
+    
+    
+}
+.WelCome:hover{
+    transform: scale(0.9);
+    transition-duration: 1s;
+    
+}
+@keyframes Welcome{
+    from{
+        transform:scale(1.5)
+    }
+    to{
+        transform: scale(1.0)
+    }
+}
+.card{
+    margin-top: 10px;
+}
+
+.futare{
+    background: #2c2727;
+    color: white;
+    padding: 30px;
+}
+.card:hover{
+    background: #efece757;
+}
